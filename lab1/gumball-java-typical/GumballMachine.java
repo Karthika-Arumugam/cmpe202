@@ -1,33 +1,27 @@
 
-public class GumballMachine
+/**
+ * Write a description of class GumballMachine here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
+ */
+public abstract class GumballMachine
 {
-
-    private int num_gumballs;
-    private boolean has_quarter;
-
-    public GumballMachine( int size )
-    {
-        // initialise instance variables
-        this.num_gumballs = size;
-        this.has_quarter = false;
-    }
-
-    public void insertQuarter(int coin)
-    {
-        if ( coin == 25 )
-            this.has_quarter = true ;
-        else 
-            this.has_quarter = false ;
-    }
+    // instance variables - replace the example below with your own
+    protected int num_gumballs;
+    protected boolean has_quarter;
+    protected int cost;
     
-    public void turnCrank()
+    
+    abstract void insertCoin(int coin);
+    protected void turnCranc()
     {
-    	if ( this.has_quarter )
+    	if ( has_quarter )
     	{
-    		if ( this.num_gumballs > 0 )
+    		if ( num_gumballs > 0 )
     		{
-    			this.num_gumballs-- ;
-    			this.has_quarter = false ;
+    			num_gumballs-- ;
+    			has_quarter = false ;
     			System.out.println( "Thanks for your quarter.  Gumball Ejected!" ) ;
     		}
     		else
@@ -40,4 +34,7 @@ public class GumballMachine
     		System.out.println( "Please insert a quarter" ) ;
     	}        
     }
+    
+
+    
 }
