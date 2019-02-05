@@ -1,44 +1,52 @@
 
 
-public class GumballMachine {
+abstract class GumballMachine implements State {
  
 	State soldOutState;
 	State noQuarterState;
 	State hasQuarterState;
 	State soldState;
+
  
 	State state = soldOutState;
-	int count = 0;
+	int count = 0,amt;
  
-	public GumballMachine(int numberGumballs) {
-		soldOutState = new SoldOutState(this);
-		noQuarterState = new NoQuarterState(this);
-		hasQuarterState = new HasQuarterState(this);
-		soldState = new SoldState(this);
-
-		this.count = numberGumballs;
- 		if (numberGumballs > 0) {
-			state = noQuarterState;
-		} 
+	
+ 
+	abstract public void insertCoin() ;
+        public void setState(State state) {
+		this.state = state;
 	}
- 
-	public void insertQuarter() {
-		state.insertQuarter();
-	}
- 
-	public void ejectQuarter() {
-		state.ejectQuarter();
-	}
- 
-	public void turnCrank() {
+	public void insertQuarter()
+	   {
+	        amt=amt + 25;
+	       this.insertCoin();
+	   }
+	   public void turnCrank() {
 		state.turnCrank();
 		state.dispense();
 	}
-
-	void setState(State state) {
-		this.state = state;
+	public void dispense()
+	{
+	    state.dispense();
+	   }
+	   
+	   public void ejectQuarter() {
+		state.ejectQuarter();
 	}
+	  public void insertNikels()
+	   {
+	       amt=amt + 25;
+	       this.insertCoin();
+	   }
+	  
+	  public void insertDimes()
+	   {
+	       amt=amt + 25;
+	       this.insertCoin();
+	   }
  
+	
 	void releaseBall() {
 		System.out.println("A gumball comes rolling out the slot...");
 		if (count != 0) {
