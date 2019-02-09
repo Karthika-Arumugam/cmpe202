@@ -1,8 +1,7 @@
 #BlueJ class context
 comment0.target=Type2GumballMachine
-comment0.text=\r\n\ Write\ a\ description\ of\ class\ GumballMahine2\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
-comment1.params=size
-comment1.target=Type2GumballMachine(int)
-comment2.params=coin
-comment2.target=void\ insertCoin(int)
-numComments=3
+comment0.text=\r\n\ Write\ a\ description\ of\ interface\ Type2GumballMachine\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=coin
+comment1.target=void\ insertCoin(int)
+comment1.text=\r\n\ Type2GumballMachine\ accepts\ only\ Quarters\r\n\r\n\ Cost\ of\ a\ Gumball\ is\ 50\ cents\r\n\ \r\n
+numComments=2

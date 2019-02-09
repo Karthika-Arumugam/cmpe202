@@ -2,9 +2,8 @@
 comment0.target=State
 comment1.params=
 comment1.target=void\ insertCoin()
-comment1.text=default\ void\ insertCoin(){\r\n\t\ \ \ \ System.out.println("Check");\r\n}
-comment2.params=
-comment2.target=void\ ejectQuarter()
+comment2.params=coin
+comment2.target=void\ ejectQuarter(int)
 comment3.params=
 comment3.target=void\ turnCrank()
 comment4.params=

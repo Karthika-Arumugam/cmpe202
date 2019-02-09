@@ -1,7 +1,7 @@
 #BlueJ class context
 comment0.target=Type1GumballMachine
-comment1.params=size
-comment1.target=Type1GumballMachine(int)
-comment2.params=coin
-comment2.target=void\ insertCoin(int)
-numComments=3
+comment0.text=\r\n\ Write\ a\ description\ of\ interface\ Process\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=coin
+comment1.target=void\ insertCoin(int)
+comment1.text=\r\n\ Type1GumballMachine\ accepts\ only\ Quarters\r\n\r\n\ Cost\ of\ a\ Gumball\ is\ Quarter\r\n\ \r\n
+numComments=2

@@ -1,60 +1,54 @@
-
+ 
 
 public class Main {
 
-	public static void main(String[] args) {
-		GumballMachine gumballMachine = new Type1GumballMachine(5);
-		GumballMachine gumballMachine2 = new Type2GumballMachine(5);
-		GumballMachine gumballMachine3 = new Type3GumballMachine(5);
+public static void main(String[] args) {
+  
+    
+      GumballMachine gm1 = new GumballMachine(5,"Type1");
+      GumballMachine gm2 = new GumballMachine(5,"Type2");
+      GumballMachine gm3 = new GumballMachine(5,"Type3");
+      System.out.println(gm1);
+     gm1.insertCoin(25);
+     gm1.turnCrank();
+     gm1.insertCoin(10);
+     gm1.turnCrank();
 
-		System.out.println(gumballMachine);
+     System.out.println(gm1);
+     
+     System.out.println(gm2);
 
-		gumballMachine.insertCoin();
-		gumballMachine.turnCrank();
+     gm2.insertCoin(25);
+     gm2.insertCoin(25);
+     gm2.insertCoin(25);
+     gm2.insertCoin(25);
+     
+     
+  
+     gm2.turnCrank();
+     gm2.insertCoin(10);
+     gm2.turnCrank();
 
-		/*System.out.println(gumballMachine);
+     System.out.println(gm2);
+     System.out.println(gm3);
 
-		gumballMachine.insertCoin();
-		
-		gumballMachine.turnCrank();
-		gumballMachine.insertCoin();
-		gumballMachine.turnCrank();gumballMachine.insertCoin();
-		gumballMachine.turnCrank();
-		gumballMachine.insertCoin();
-		gumballMachine.turnCrank();*/
-		
+     gm3.insertCoin(25);
+     gm3.insertCoin(25);
+     gm3.insertCoin(25);
+     gm3.insertCoin(25);
+     
+     
+  
+     gm3.turnCrank();
+     gm3.insertCoin(10);
+     gm3.turnCrank();
 
-		System.out.println(gumballMachine);
-		
-		System.out.println(gumballMachine2);
+     System.out.println(gm3);
 
-		gumballMachine2.insertCoin();
-		gumballMachine2.insertCoin();
-		gumballMachine2.turnCrank();
 
-		/*System.out.println(gumballMachine2);
+        
+        
 
-		gumballMachine2.insertQuarter();
-		
-		gumballMachine2.turnCrank();
-		gumballMachine2.insertQuarter();
-		gumballMachine2.turnCrank();gumballMachine2.insertQuarter();
-		gumballMachine2.turnCrank();
-		gumballMachine2.insertQuarter();
-		gumballMachine2.turnCrank();
-		
-
-		System.out.println(gumballMachine2);*/
-		
-		System.out.println(gumballMachine3);
-
-		gumballMachine3.insertCoin();
-		gumballMachine3.insertQuarter();
-		gumballMachine3.insertQuarter();
-		gumballMachine3.turnCrank();
-
-		System.out.println(gumballMachine3);
-
-		
-	}
+        
+    }
 }
