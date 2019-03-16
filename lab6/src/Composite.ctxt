@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Composite
+comment1.params=d
+comment1.target=Composite(java.lang.String)
+comment2.params=c
+comment2.target=void\ addChild(Component)
+comment3.params=c
+comment3.target=void\ removeChild(Component)
+comment4.params=i
+comment4.target=Component\ getChild(int)
+comment5.params=s
+comment5.target=void\ setPrintStrategy(PrintStrategy)
+comment6.params=
+comment6.target=void\ printSlip()
+numComments=7
