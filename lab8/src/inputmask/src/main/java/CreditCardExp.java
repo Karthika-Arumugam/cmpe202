@@ -24,7 +24,6 @@ public class CreditCardExp implements IDisplayComponent, IKeyEventHandler
 
 	public void key(String ch, int cnt) {
 		if (cnt >= 17 && cnt <= 20) {
-			s.setState(this);
 			if (ch.matches("X|x")) {
 				if (date.length() > 0)
 					date = date.substring(0, date.length() - 1);

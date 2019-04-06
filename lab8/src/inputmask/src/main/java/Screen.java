@@ -51,9 +51,6 @@ public class Screen implements IScreen, IDisplayComponent
         return (this.getClass().getName()) ;
     }
 
-    public String cur_name(){
-        return (current.getClass().getSimpleName()) ;
-    }
     public void setState(IDisplayComponent c)
     {
         current=c;

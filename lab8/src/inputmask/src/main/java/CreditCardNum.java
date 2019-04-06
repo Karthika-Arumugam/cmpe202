@@ -29,7 +29,6 @@ public class CreditCardNum implements IDisplayComponent, IKeyEventHandler
 
 	public void key(String ch, int cnt) {
 		if ( cnt >= 1 && cnt <= 16 && number.length()<=21) {
-			 s.setState(this);
 			if(ch.equalsIgnoreCase("X"))
 			{
 				number=number.substring(0, number.length() - 1);
