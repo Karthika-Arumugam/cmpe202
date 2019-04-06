@@ -4,15 +4,10 @@ public class CreditCardNum implements IDisplayComponent, IKeyEventHandler
 {
 
 
-	private  Screen s;
 	private IKeyEventHandler nextHandler ;
 	private String number = "" ;
 
 
-	public CreditCardNum(Screen s)
-	{
-		this.s=s;
-	}
 
     public void setNext( IKeyEventHandler next) {
     	this.nextHandler = next ;

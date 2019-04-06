@@ -3,14 +3,11 @@
 public class CreditCardExp implements IDisplayComponent, IKeyEventHandler
 {
 
-	private  Screen s;
+
 	private IKeyEventHandler nextHandler ;
 	private String date = "" ;
 
-	public CreditCardExp(Screen s)
-	{
-		this.s=s;
-	}
+
     public void setNext( IKeyEventHandler next) {
     	this.nextHandler = next ;
     }	

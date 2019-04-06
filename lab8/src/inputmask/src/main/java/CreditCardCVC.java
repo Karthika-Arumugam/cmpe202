@@ -4,13 +4,9 @@ public class CreditCardCVC implements IDisplayComponent, IKeyEventHandler
 {
 
 	private IKeyEventHandler nextHandler ;
-	private Screen s;
 	private String cvc = "" ;
 
-	public CreditCardCVC(Screen s)
-	{
-		this.s=s;
-	}
+
     public void setNext( IKeyEventHandler next) {
     	this.nextHandler = next ;
     }	

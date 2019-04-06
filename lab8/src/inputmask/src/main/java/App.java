@@ -17,11 +17,11 @@ public class App {
     public App() {
 
         screen = new Screen();
-        creditcard=new CreditCardNum(screen);
-        creditexp=new CreditCardExp(screen);
+        creditcard=new CreditCardNum();
+        creditexp=new CreditCardExp();
         num = new ConcreteCardNumDecorator(creditcard);
         exp = new ConcreteCardExpDecorator(creditexp);
-        cvc = new CreditCardCVC(screen);
+        cvc = new CreditCardCVC();
         pin=new PinEntryMachine();
         this.registerObserver(pin);
 
