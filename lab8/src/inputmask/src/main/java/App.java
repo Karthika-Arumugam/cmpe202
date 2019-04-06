@@ -3,7 +3,7 @@
 /**
  *  Main App Class for Displaying Screen.
  */
-public class App {
+public class App implements IPinSubject{
 
     private Screen screen;
     private IDisplayComponent num;
@@ -98,7 +98,7 @@ public class App {
 
 
     }
-void notifyObserver(){
+public void notifyObserver(){
         if(pin!=null)
         pin.cursorChange(count);
 }
