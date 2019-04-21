@@ -10,9 +10,9 @@
 
 ## Lab 9 submission-
 
-
+## Pattern Implementation Output
 ![Design Pattern Output](https://github.com/Karthika-Arumugam/cmpe202/blob/master/lab9/output/Pattern_Impl_Output.JPG)
 
 
-
+## Lambda Implementation Output
 ![Lambda Function Output](https://github.com/Karthika-Arumugam/cmpe202/blob/master/lab9/output/Lambda_Impl_Output.JPG)
