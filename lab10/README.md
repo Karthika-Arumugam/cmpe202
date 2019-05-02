@@ -18,19 +18,26 @@ With the help of feature model we can have any number of features added and remo
 
 Crank Model 25 cents
 
-![alt text]()
+![alt text](https://github.com/Karthika-Arumugam/cmpe202/blob/master/lab10/output/CrankModel-25.jpeg)
 
 
 
 Crank Model 50 cents
 
-![alt text]()
+![alt text](https://github.com/Karthika-Arumugam/cmpe202/blob/master/lab10/output/CrankModel-50.jpeg)
 
-### Possible Scenario 3
+
 
 Slot Model 25 cents
 
-![alt text]()
+![alt text](https://github.com/Karthika-Arumugam/cmpe202/blob/master/lab10/output/SlotModel-25.jpeg)
+
+
+
+
+Slot Model 50 cents
+
+![alt text](https://github.com/Karthika-Arumugam/cmpe202/blob/master/lab10/output/SlotModel-50.jpeg)
 
 
 ### Possible Scenario 4
