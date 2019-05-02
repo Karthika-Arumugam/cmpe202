@@ -40,8 +40,4 @@ Slot Model 50 cents
 ![alt text](https://github.com/Karthika-Arumugam/cmpe202/blob/master/lab10/output/SlotModel-50.jpeg)
 
 
-### Possible Scenario 4
 
-Slot Model 50 cents
-
-![alt text]()
